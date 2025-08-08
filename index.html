@@ -6,5 +6,33 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Relogio</title>
   </head>
-  <body class=""></body>
+  <body
+    class="h-screen w-screen bg-linear-to-r from-yellow-300 via-orange-400 to-orange-700 flex justify-center items-center"
+  >
+    <main
+      class="h-1/3 w-1/2 shadow-[8px_-1px_20px_10px_#1a202c] flex justify-center items-center gap-2 p-4"
+    >
+      <div
+        class="bg-black h-4/5 w-1/3 flex flex-col justify-center rounded-2xl"
+        id="hours"
+      >
+        <h1 class="text-white font-sans text-center text-9xl">09</h1>
+        <h2 class="text-white font-sans text-center">Horas</h2>
+      </div>
+      <div
+        class="bg-black h-4/5 w-1/3 flex flex-col justify-center rounded-2xl"
+        id="minutes"
+      >
+        <h1 class="text-white font-sans text-center text-9xl">10</h1>
+        <h2 class="text-white font-sans text-center">Minutos</h2>
+      </div>
+      <div
+        class="bg-black h-4/5 w-1/3 flex flex-col justify-center rounded-2xl"
+        id="seconds"
+      >
+        <h1 class="text-white font-sans text-center text-9xl">09</h1>
+        <h2 class="text-white font-sans text-center">Segundos</h2>
+      </div>
+    </main>
+  </body>
 </html>
